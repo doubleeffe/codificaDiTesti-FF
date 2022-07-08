@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- 
 Marcare un testo plain text di circa 3000 caratteri a
 piacere:
@@ -6,8 +7,6 @@ piacere:
 - verificare che sia ben formato con xmllint
 - salvare il file XML su github
  -->
-
-<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
 	<teiHeader>
 		<fileDesc>
