@@ -1,0 +1,96 @@
+<!-- 
+Marcare un testo plain text di circa 3000 caratteri a
+piacere:
+- Inserire prologo XML
+- Marcare la struttura usando gli elementi fin qui descritti, in particolare marcare tutti i paragrafi usando <p> e la struttura editoriale usando <div>
+- verificare che sia ben formato con xmllint
+- salvare il file XML su github
+ -->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+	<teiHeader>
+		<fileDesc>
+	    	<titleStmt>
+				<title>esercizio01</title>
+				<author>Francesca Ferraioli</author>
+				<respStmt>
+					<!-- dichiarazione di responsabilità per il contenuto di un testo-->
+					<resp>Wired</resp>
+					<name xml:id="GD">Gianluca Dotti</name>
+				</respStmt>
+			</titleStmt>
+            <editionStmt>
+                <edition>Edizione digitale <date>8 luglio 2022</date></edition>
+                <editor resp="Francesca Ferraioli">Francesca Ferraioli</editor> <!-- fornisce il nome del principale ricercatore responsabile della creazione di un testo elettronico-->
+                <respStmt>
+                    <resp>Codificato da</resp>
+                    <name xml:id="FF">Francesca Ferraioli</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Progetto coordinato da</resp>
+                    <name xml:id="AMDG">Angelo Mario Del Grosso</name>
+                </respStmt>
+            </editionStmt>			
+            <publicationStmt>
+				<publisher>Edizioni Condé Nast S.P.A.</publisher>
+				<availability status="free">
+                    <p/>
+                </availability>
+			</publicationStmt>
+			<sourceDesc>
+                <bibl>
+                    <title>Come rendere davvero sostenibile la transizione energetica</title>
+                    <author>Gianluca Dotti</author>
+                    <publisher>Edizioni Condé Nast S.P.A.</publisher>
+                    <date>23 novembre 2021</date>
+                </bibl>
+            </sourceDesc>
+		</fileDesc>
+	</teiHeader>
+    <text xml:lang="it">
+        <front>
+        <!-- frontespizio generale -->
+        </front>
+        <group>
+            <text xml:id="text_n1">
+                <front>
+                <!-- frontespizio -->
+                </front>
+                <body>
+                    <div>
+                        <head rend="bold">Come rendere davvero sostenibile la transizione energetica</head> 
+                        <head rend="italic">Dalla mobilità alla gestione delle risorse, dall'energia al paradigma emissioni zero, la transizione energetica non è solo una questione imprenditoriale, geopolitica o strategica, ma riguarda il nostro vivere quotidiano. Se n'è parlato a Wired Future Lab con A2A</head>
+                        <p>Nuova propulsione nel Vecchio continente verso l'adozione di sistemi energetici a fusione nucleare. È stato infatti annunciato questa settimana l’avvio ufficiale della progettazione di una centrale europea dimostrativa a fusione, chiamata Demonstration Fusion Power Reactor, o in breve Demo. Il dispositivo, frutto dell’esperienza accumulata sul reattore sperimentale Iter (che verrà attivato presumibilmente nel 2035) e sviluppato nell'ambito del programma Horizon EuroFusion, richiederà parecchio tempo per la sua realizzazione, ma dovrebbe entrare in funzione intorno alla metà di questo secolo. Secondo quanto dichiarato, avrà una produzione netta di 300-500 megawatt di potenza - pulita e sicura - pari al fabbisogno di circa 1,5 milioni di famiglie.</p> 
+                        <p>Come ha ribadito Ambrogio Fasoli, presidente di EuroFusion: “Guardando al futuro, sarà nacessario trovare fonti di energia a basso impatto ambientale, possibilmente ben distribuite a livello geografico, compatibili con uno sviluppo sostenibile. In questa ottica, la fusione nucleare costituisce una valida soluzione per una delle sfide più importanti dell’umanità”. Affinché tutto questo sia possibile, servono certamente progressi a livello scientifico e tecnologico, ma anche finanziamenti, con un sostegno concreto del settore pubblico e privato e la realizzazione di infrastrutture all’altezza. Ma andiamo per ordine.</p> 
+                    </div>
+                    <div>
+                        <head>Cosa vuol fare l'Europa sulla fusione nucleare</head>
+                        <p>Il tema della fusione nucleare è tornato di grande attualità in questi giorni dopo che lo scorso martedì 5 luglio si è tenuta la conferenza di lancio del già citato Horizon EuroFusion, il nuovo programma europeo di ricerca sulla fusione nucleare che si sviluppa nella cornice di Horizon Europe ed è co-finanziato dalla Commissione europea. Non a caso l’evento - realizzato dal consorzio europeo EuroFusion - si è tenuto presso la Rappresentanza dello Stato tedesco del Mecklenburg Vorpommern presso l'Unione europea a Bruxelles. Per chi fosse interessato, è disponibile online la registrazione integrale delle due ore di evento.</p>
+                        <p>A oggi il consorzio EuroFusion riunisce 26 paesi dell’Unione europea, a cui si aggiungono Svizzera, Regno Unito e Ucraina, e coordina il lavoro di vari istituti di ricerca per un totale di circa 4.800 ricercatori e 150 enti partner impegnati nello sviluppo della tecnologia della fusione nucleare. L’annuncio di Demo è arrivato poco dopo avere ottenuto il nuovo record mondiale presso l’impianto europeo Jet (Joint European Torus) a Culham nel Regno Unito, dove sono stati prodotti 59 megajoule di energia utilizzando come combustibili deuterio e trizio.</p>
+
+                        <p>Forte di questi prestigiosi risultati, EuroFusion si propone di andare oltre il modello del reattore Iter ancora in costruzione e di creare una strumentazione con design e caratteristiche tecniche nuove, con l’obiettivo di creare dispositivi intrinsecamente sicuri e più efficienti dal punto di vista energetico. A tal proposito sono stati presentati i piani di ricerca del prossimo futuro, con una tabella di marcia sugli obiettivi da perseguire passo-passo per potere sfruttare la fusione nucleare come fonte di energia nella seconda parte di questo secolo.</p>
+                    </div>
+                    <div>
+                        <head>La fusione nucleare per il futuro dell'energia</head>
+                        <p>Il processo energetico che alimenta il Sole e le altre stelle, la fusione nucleare, ha notoriamente proprietà straordinarie dal punto di vista fisico e di processo. Bastano pochi grammi di combustibile, facilmente reperibile, per produrre enormi quantità di energia. In termini quantitativi, la fusione potrà arrivare a generare circa 4 milioni di volte più energia rispetto a quella prodotta bruciando carbone, petrolio o gas, a parità di quantità di combustibile. A oggi, almeno tra gli addetti ai lavori, le potenzialità di questa tecnologia non sono in discussione, ma in questo momento storico serve anzitutto agire concretamente per mettere a terra tutto il lavoro svolto negli ultimi anni.</p>
+
+                        <p>Il tempo a disposizione, s'è ribadito anche all'evento di Bruxelles, è molto limitato: il riscaldamento globale avanza pericolosamente e l’obiettivo dell’azzeramento delle emissioni nocive nette entro il 2050 è diventato quantomai essenziale. L’invasione dell’Ucraina da parte della Russia ha ulteriormente complicato la situazione, imponendo di fatto la necessità di ridurre in maniera rapida la dipendenza dal gas russo per evitare gravi conseguenze anche dal punto di vista economico sui paesi dell'Unione.</p>
+                    </div>
+                    <div>
+                        <head>Un cambio di passo con l’Europa come modello virtuoso</head>
+                        <p>Horizon EuroFusion è solo il primo di una serie annuale di eventi pianificati dal consorzio EuroFusion, in cui verranno condivisi periodicamente i progressi della ricerca e le prospettive del futuro, in linea con il programma di ricerca e formazione Euratom (2021-2025) in ambito di fisica nucleare, gestito e ideato dalla direzione generale Ricerca e innovazione della Commissione europea. L’obiettivo è molto chiaro: promuovere la transizione energetica attraverso un miglioramento continuo dei sistemi di produzione di energia con la fusione nucleare, con un’attenzione particolare rivolta alla sicurezza e alla protezione dalle radiazioni. Se finora si è parlato (e discusso) molto, valutando ogni singolo aspetto sotto svariati punti di vista, la sensazione comune è che sia giunto il momento di accelerare, per arrivare a dimostrare sul campo le reali potenziali della fusione nucleare nelle applicazioni effettive.</p> 
+
+                        <p>L’Unione europea, già impegnata nel progetto Iter con un contributo del 45% delle spese totali del progetto, si propone ora di trainare il progresso in questa direzione e fungere da modello virtuoso per la transizione energetica globale. In questo senso Horizon EuroFusion non ha solo l'obiettivo di tracciare un bilancio tecnico e scientifico, ma soprattutto condividere messaggi positivi verso le istituzioni e i popoli europei, in modo che la transizione energetica viaggi di pari passo con una transizione in termini culturali e di consapevolezza. Tutto ciò non solo perché il confronto diventa essenziale per ideare nuove applicazioni, ma anche perché la fusione nucleare ha tutte le caratteristiche per offrire grandi opportunità in termini di applicazioni industriali che puntino alla sostenibilità.</p>
+                    </div>
+                </body>
+                <back>
+                <!-- appendice -->
+                </back>
+            </text>
+        </group>
+        <back>
+        <!-- appendice generale -->
+        </back>
+    </text>
+</TEI>
