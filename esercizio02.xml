@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+Utilizzare puntatori, note, lista, glossario marcare nomi, rs, term.
+ -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+	<teiHeader>
+		<fileDesc>
+	    	<titleStmt>
+				<title>esercizio02</title>
+				<author>Francesca Ferraioli</author>
+				<respStmt>
+					<!-- dichiarazione di responsabilità per il contenuto di un testo-->
+					<resp>Pirandelloweb</resp>
+					<name xml:id=""></name>
+				</respStmt>
+			</titleStmt>
+            <editionStmt>
+                <edition>Edizione digitale <date>9 Aprile 2021</date></edition>
+                <editor resp="Francesca Ferraioli">Francesca Ferraioli</editor> <!-- fornisce il nome del principale ricercatore responsabile della creazione di un testo elettronico-->
+                <respStmt>
+                    <resp>Codificato da</resp>
+                    <name xml:id="FF">Francesca Ferraioli</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Progetto coordinato da</resp>
+                    <name xml:id="AMDG">Angelo Mario Del Grosso</name>
+                </respStmt>
+            </editionStmt>			
+            <publicationStmt>
+				<publisher></publisher>
+				<availability status="free">
+                    <p/>
+                </availability>
+			</publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>Il treno ha fischiato</title>
+                    <author>Luigi Pirandello</author>
+                    <publisher>Corriere della Sera</publisher>
+                    <date>22 febbraio 1914</date>
+                </bibl>
+            </sourceDesc>
+		</fileDesc>
+	</teiHeader>
+    <text xml:lang="it">
+        <body>
+            <div>
+                <p>Farneticava. Principio di febbre cerebrale, avevano detto i medici; e lo ripetevano tutti i compagni d’ufficio, che ritornavano a <num value="2"> due </num>, a <num value="3"> tre </num>, dall’ospizio, ov’erano stati a visitarlo.</p>
+
+                <p>
+                <list type="simple">                        
+                    <head>Pareva provassero un gusto particolare a darne l’annunzio coi termini scientifici, appresi or ora dai medici, a qualche collega ritardatario che incontravano per via:</head>
+                    <item>Frenesia, frenesia.</item>
+                    <item>Encefalite.</item>
+                    <item>Infiammazione della membrana.</item>
+                    <item>Febbre cerebrale.</item>
+                </list>
+                </p>
+                <p>E volevan sembrare afflitti; ma erano in fondo così contenti, anche per quel dovere compiuto; nella pienezza della salute, usciti da quel triste ospizio al gajo azzurro della mattinata invernale.</p>
+
+                <p>E a nessuno passava per il capo che, date le specialissime condizioni in cui quell’infelice viveva da tant’anni, il suo caso poteva anche essere naturalissimo; e che tutto ciò che <rs type="person"> Belluca </rs> diceva e che pareva a tutti delirio, sintomo della frenesia, poteva anche essere la spiegazione più semplice di quel suo naturalissimo caso.</p>
+            </div>
+        </body>
+    </text>
+</TEI>
