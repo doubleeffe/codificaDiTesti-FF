@@ -45,20 +45,18 @@ Utilizzare puntatori, note, lista, glossario marcare nomi, rs, term.
     <text xml:lang="it">
         <body>
             <div>
-                <p>Farneticava. Principio di febbre cerebrale, avevano detto i medici; e lo ripetevano tutti i compagni d’ufficio, che ritornavano a <num value="2"> due </num>, a <num value="3"> tre </num>, dall’ospizio, ov’erano stati a visitarlo.</p>
-
+                <p>Farneticava<note n="1" place="foot">Farneticava: delirava.</note>. Principio di febbre cerebrale, avevano detto i medici; e lo ripetevano tutti i compagni d’ufficio, che ritornavano a <num value="2"> due </num>, a <num value="3"> tre </num>, dall’ospizio<note n="2" place="foot">ospizio: ospedale psichiatrico.</note>, <choice><orig>ov’erano</orig><reg>dove erano</reg></choice> stati a visitarlo.</p>
                 <p>
                 <list type="simple">                        
-                    <head>Pareva provassero un gusto particolare a darne l’annunzio coi termini scientifici, appresi or ora dai medici, a qualche collega ritardatario che incontravano per via:</head>
+                    <head>Pareva provassero un gusto particolare a darne l’annunzio <choice><orig>coi</orig><reg>con i</reg></choice> termini scientifici, appresi or ora dai medici, a qualche collega ritardatario che incontravano per via:</head>
                     <item>Frenesia, frenesia.</item>
                     <item>Encefalite.</item>
                     <item>Infiammazione della membrana.</item>
                     <item>Febbre cerebrale.</item>
                 </list>
                 </p>
-                <p>E volevan sembrare afflitti; ma erano in fondo così contenti, anche per quel dovere compiuto; nella pienezza della salute, usciti da quel triste ospizio al gajo azzurro della mattinata invernale.</p>
-
-                <p>E a nessuno passava per il capo che, date le specialissime condizioni in cui quell’infelice viveva da tant’anni, il suo caso poteva anche essere naturalissimo; e che tutto ciò che <rs type="person"> Belluca </rs> diceva e che pareva a tutti delirio, sintomo della frenesia, poteva anche essere la spiegazione più semplice di quel suo naturalissimo caso.</p>
+                <p>E volevan sembrare afflitti; ma erano in fondo così contenti, anche per quel dovere compiuto; nella pienezza della salute, usciti da quel triste ospizio al <choice><orig>gajo</orig><reg>gaio</reg></choice> azzurro della mattinata invernale.</p>
+                <p>E a nessuno passava per il capo che, date le specialissime condizioni in cui quell’infelice viveva da tant’anni, il suo caso poteva anche essere naturalissimo; e che tutto ciò che <rs type="person">Belluca</rs> diceva e che pareva a tutti delirio, sintomo della frenesia, poteva anche essere la spiegazione più semplice di quel suo naturalissimo caso.</p>
             </div>
         </body>
     </text>
