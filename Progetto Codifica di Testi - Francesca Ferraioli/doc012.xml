@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="doc012.xsl"?>
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Copia del 6 Gen 1941 - doc012</title>
+				<author>Francesca Ferraioli</author>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Università di Pisa</publisher>
+				<date />
+				<availability status="unknown">
+					<p>Unpublished document</p>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl>
+					<title>Il ricovero di Izak Heger</title>
+					<author>Francesca Ferraioli</author>
+					<publisher>Museo della memoria e della pace</publisher>
+					<date when="19401230">30 Dic 1940</date>
+				</bibl>
+				<msDesc>
+					<msIdentifier>
+						<placeName>
+							<settlement>Campagna (SA)</settlement>
+							<region key="" type="state">Italia</region>
+						</placeName>
+					</msIdentifier>
+					<msContents>
+						<msItem>
+							<title>Il ricovero di Izak Heger</title>
+							<textLang mainLang="it">Scritto in italiano.</textLang>
+							<docImprint>
+								Torino,
+								<docDate>1941</docDate>
+							</docImprint>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<support>
+									<p>
+										Foglio di
+										<material>carta</material>
+										che rappresenta una comunicazione del ministero ai prefetti di Salerno e Torino.
+									</p>
+									<stamp facs="#doc012_Stamp.main">Nella parte alta del foglio è presente un timbro di colore viola, la quale scritta è solo in parte leggibile. Riporta anche la data della ricezione.</stamp>
+								</support>
+							</supportDesc>
+							<layoutDesc>
+								<layout columns="2" ruledLines="10 20">
+									<p>La pagina si presenta con una suddivisione in due colonne: nella colonna a sinistra sono presenti le informazioni riguardanti il soggetto del referto, ovvero l'internato Heger Isak, la data di invio, mittente e destinatario, per un totale di 10 righe manoscritte mentre nella colonna di destra sono riportate la data di redazione, le 18 linee del testo e la firma in calce.</p>
+								</layout>
+							</layoutDesc>
+						</objectDesc>
+						<handDesc>
+							<p>Scritto da una sola mano, ovvero quella dell'autore.</p>
+						</handDesc>
+						<typeDesc>
+							<p>Scritto in caratteri corsivi, non sempre di facile comprensione. Alcune parole risultano sottolineate mentre altre sono state cancellate.</p>
+						</typeDesc>
+					</physDesc>
+					<history>
+						<summary>Questo documento è una testimonianza dello stato di salute di un deportato al campo di concentramento di Campagna.</summary>
+						<origin notAfter="1941">
+							<p>Questo documento è stato compilato dal Ministero.</p>
+						</origin>
+						<acquisition>
+							<p>La testimonianza si trova al Museo della Memoria e della Pace di Campagna in provincia di
+								Salerno. Non è mai stata pubblicata ed è stata gentilmente fornita dal Direttore dello stesso, l'archeologo Marcello Naimoli.</p>
+						</acquisition>
+					</history>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface>
+			<graphic url="doc012.jpg" width="2030px" height="2964px" xml:id="doc012" />
+			<!-- INTESTAZIONE -->
+			<zone ulx="157" uly="74" lrx="849" lry="385" rendition="HotSpot" xml:id="doc012_Header.top_left00" />
+			<zone ulx="90" uly="537" lrx="925" lry="613" rendition="Line" xml:id="doc012_Header.top_left01" />
+			<zone ulx="90" uly="611" lrx="925" lry="669" rendition="Line" xml:id="doc012_Header.top_left02" />
+			<zone ulx="90" uly="729" lrx="925" lry="795" rendition="Line" xml:id="doc012_Header.top_left03" />
+			<zone ulx="90" uly="799" lrx="925" lry="855" rendition="Line" xml:id="doc012_Header.top_left04" />
+			<zone ulx="90" uly="858" lrx="925" lry="929" rendition="Line" xml:id="doc012_Header.top_left05" />
+			
+			<zone ulx="1714" uly="81" lrx="1901" lry="127" rendition="HotSpot" xml:id="doc012_Header.top_right" />
+			<zone ulx="35" uly="1720" lrx="60" lry="2040" rendition="HotSpot" xml:id="doc012_Header.left_side" />
+			<!-- TIMBRO -->
+			<zone ulx="651" uly="115" lrx="1037" lry="779" rendition="HotSpot" xml:id="doc012_Stamp.main" />
+			<!-- versione poligonale - non utilizzato -->
+			<!-- <zone points=" 596,714 927,807 1096,196 759,107 " rendition="HotSpot" xml:id="doc012_Stamp.main" /> -->
+			<!-- OGGETTO -->
+			<zone ulx="345" uly="970" lrx="670" lry="1040" rendition="Line" xml:id="doc012_Subject.01" />
+			<zone ulx="85" uly="1049" lrx="900" lry="1199" rendition="Line" xml:id="doc012_Subject.02" />
+			<zone ulx="65" uly="1200" lrx="903" lry="1379" rendition="Line" xml:id="doc012_Subject.03" />
+			<zone ulx="30" uly="1380" lrx="911" lry="1522" rendition="Line" xml:id="doc012_Subject.04" />
+			<zone ulx="490" uly="1546" lrx="792" lry="2015" rendition="HotSpot" xml:id="doc012_Subject.hand_sign" />
+			<!-- versione poligonale - non utilizzato -->
+			<!-- <zone points=" 663,1496 478,1749 612,2054 791,1803 " rendition="HotSpot" xml:id="doc012_Subject.hand_sign" /> -->
+			<!-- DESTINATARI -->
+			<zone ulx="70" uly="2080" lrx="934" lry="2741" rendition="Line" xml:id="doc012_Dest.01" />
+			<!-- CORPO E RIGHE DOCUMENTO -->
+			<zone ulx="970" uly="170" lrx="1735" lry="290" rendition="Line" xml:id="doc012_Body.00" />
+			<zone ulx="970" uly="375" lrx="2010" lry="512" rendition="Line" xml:id="doc012_Body.01" />
+			<zone ulx="970" uly="554" lrx="2010" lry="700" rendition="Line" xml:id="doc012_Body.02" />
+			<zone ulx="970" uly="716" lrx="2010" lry="851" rendition="Line" xml:id="doc012_Body.03" />
+			<zone ulx="970" uly="865" lrx="1890" lry="1007" rendition="Line" xml:id="doc012_Body.04" />
+			<zone ulx="970" uly="1006" lrx="1890" lry="1128" rendition="Line" xml:id="doc012_Body.05" />
+			<zone ulx="970" uly="1132" lrx="1890" lry="1310" rendition="Line" xml:id="doc012_Body.06" />
+			<zone ulx="970" uly="1311" lrx="1890" lry="1424" rendition="Line" xml:id="doc012_Body.07" />
+			<zone ulx="970" uly="1434" lrx="1890" lry="1560" rendition="Line" xml:id="doc012_Body.08" />
+			<zone ulx="970" uly="1570" lrx="2010" lry="1747" rendition="Line" xml:id="doc012_Body.09" />
+			<zone ulx="970" uly="1728" lrx="2010" lry="1850" rendition="Line" xml:id="doc012_Body.10" />
+			<zone ulx="970" uly="1850" lrx="2010" lry="1972" rendition="Line" xml:id="doc012_Body.11" />
+			<zone ulx="970" uly="1982" lrx="2010" lry="2100" rendition="Line" xml:id="doc012_Body.12" />
+			<zone ulx="970" uly="2111" lrx="1350" lry="2210" rendition="Line" xml:id="doc012_Body.13" />
+			<zone ulx="950" uly="2148" lrx="2010" lry="2390" rendition="Line" xml:id="doc012_Body.14" />
+			<zone ulx="950" uly="2348" lrx="2010" lry="2480" rendition="Line" xml:id="doc012_Body.15" />
+			<zone ulx="950" uly="2486" lrx="2010" lry="2600" rendition="Line" xml:id="doc012_Body.16" />
+			<zone ulx="950" uly="2579" lrx="2010" lry="2696" rendition="Line" xml:id="doc012_Body.17" />
+			<!-- FIRMA -->
+			<zone ulx="1280" uly="2786" lrx="2010" lry="2951" rendition="Line" xml:id="doc012_Sign.main" />
+		</surface>
+	</facsimile>
+	<text xml:lang="it" xml:id="text-it" subtype="manuscript">
+		<body>
+			<div type="doc" n="12" xml:id="doc012_document">
+				<pb n="12" />
+				<ab type="paragrafo" n="1" xml:id="doc012_Header">
+					<lb n="1" facs="#doc012_Header.top_left00" />
+					Ministero dell'Interno
+					<lb n="2" facs="#doc012_Header.top_left01" />
+					Divisione___________ Sez___________
+					<lb n="3" facs="#doc012_Header.top_left02" />
+					Prot N. 448/116 <unclear reason="illegible">3</unclear>17 Allegati___________
+					<lb n="4" facs="#doc012_Header.top_left03" />
+					Risposta al_________________________
+					<lb n="5" facs="#doc012_Header.top_left04" />
+					del <date when="19401123">23.11</date>.<unclear reason="illegible">u.o.</unclear>
+					<lb n="6" facs="#doc012_Header.top_left05" />
+					N. di prot. 09831
+					<!-- i numeri intermedi sono stati eliminati -->
+					<lb n="10" facs="#doc012_Header.top_right" />
+					Mod. 880
+					<lb n="11" facs="#doc012_Header.left_side" />
+					ISTITUTO POLIGRAFICO DELLO STATO
+				</ab>
+				<ab type="paragrafo" n="2" xml:id="doc012_Stamp">
+					<lb n="12" facs="#doc012_Stamp.main" />
+					<lb n="13" />(timbro) 
+					<unclear>COPIATO</unclear>
+					<lb n="14" />
+					<date when="19410106">6 GEN. 1941</date> <num value="19">XIX</num>
+				</ab>
+				<ab type="paragrafo" n="3" xml:id="doc012_Subject">
+					<lb n="15" facs="#doc012_Subject.01" />
+					OGGETTO
+					<lb n="16" facs="#doc012_Subject.02" />
+					<persName><surname>Heger</surname> <forename>Isak</forename></persName> di
+					<lb n="17" facs="#doc012_Subject.03" />
+					<persName><forename>Giuseppe</forename></persName><pc type="comma">,</pc> ebreo polacco<pc type="comma">,</pc> 
+					<lb n="18" facs="#doc012_Subject.04" />
+					internato a <name type="place">Campagna</name>
+					<lb n="19" facs="#doc012_Subject.hand_sign" />
+					<unclear>Alw</unclear>
+				</ab>
+				<ab type="paragrafo" n="4" xml:id="doc012_Dest">
+					<lb n="20" facs="#doc012_Dest.01" />
+					<lb n="21" />
+					Al Prefetto <supplied>di</supplied> <name type="place">Salerno</name>
+					<lb n="22" />
+					<unclear reason="illegible">Al</unclear>
+					Prefetto <supplied>di</supplied>  <name type="place">Torino</name>
+					<lb n="23" />
+					Minutata da <persName><surname>Vinciguerra</surname></persName>
+					<lb n="24" />
+					Copiata da
+				</ab>
+				<ab type="paragrafo" n="5" xml:id="doc012_Body">
+					<lb n="25" facs="#doc012_Body.00" />
+					<name type="place">Roma</name><pc type="comma">,</pc> <date when="19401230">30.12-40</date>
+					<lb n="26" facs="#doc012_Body.01" />
+					In relazione alla nota
+					<lb n="27" facs="#doc012_Body.02" />
+					suindicata si comunica
+					<lb n="28" facs="#doc012_Body.03" />
+					che nulla-osta<pc type="comma">,</pc> da parte
+					<lb n="29" facs="#doc012_Body.04" />
+					di questo <orgName type="national">Ministero</orgName><pc type="comma">,</pc>					
+					<lb n="30" facs="#doc012_Body.05" />
+					<distinct type="archaic">acché</distinct> l<pc type="apostrophe">'</pc>internato in
+					<lb n="31" facs="#doc012_Body.06" />
+					oggetto sia ricoverato
+					<lb n="32" facs="#doc012_Body.07" />
+					nella clinica del
+					<lb n="33" facs="#doc012_Body.08" />
+					<choice n="1"><abbr type="title">Dott.</abbr><expan>dottore</expan></choice> <rs type="person">Calombrino</rs> a
+					<lb n="34" facs="#doc012_Body.09" />
+					<name type="place">Torino</name> <distinct type="archaic">ove</distinct> potrà trat-
+					<lb n="35" facs="#doc012_Body.10" />
+					tenersi solamente per
+					<lb n="36" facs="#doc012_Body.11" />
+					il tempo <add place="supralinear">strettamente</add> necessario alla
+					<lb n="37" facs="#doc012_Body.12" />
+					cura del male di cui
+					<lb n="38" facs="#doc012_Body.13" />
+					<choice n="2"><sic>e</sic><corr>è</corr></choice> affetto<pc type="dot">.</pc>
+					<lb n="39" facs="#doc012_Body.14" />
+					<add place="above"><unclear reason="illegible">Pregasi</unclear> pertanto munirlo di foglio di via obbligatorio per</add>
+					<add place="above">la cui prefettura</add> <del rend="overstrike">La</del> <choice n="1"><abbr type="acronym">R.</abbr><expan>Regia</expan></choice> <del rend="overstrike">Prefettura di </del><name type="place">Torino</name>
+					<lb n="40" facs="#doc012_Body.15" />
+					è pregata di far esercitare
+					<lb n="41" facs="#doc012_Body.16" />
+					nei <distinct type="archaic">di lui</distinct> confronti l<pc type="apostrophe">'</pc>op-
+					<lb n="42" facs="#doc012_Body.17" />
+					portuna <unclear reason="illegible">vigilanza</unclear><pc type="dot">.</pc>
+				</ab>
+				<ab type="paragrafo" n="6" xml:id="doc012_Sign">
+					<lb n="43" facs="#doc012_Sign.main" />
+					<unclear reason="illegible">N ord. del Ministero</unclear>
+				</ab>
+			</div>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+Utilizzare puntatori, note, lista, glossario marcare nomi, rs, term.
+ -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+	<teiHeader>
+		<fileDesc>
+	    	<titleStmt>
+				<title>doc003</title>
+				<author>Francesca Ferraioli</author>
+			</titleStmt>
+            <publicationStmt>
+				<publisher>Università di Pisa</publisher>
+				<date></date>
+				<availability status="unknown">
+					<p>Unpublished document</p>
+				</availability>
+			</publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>Il ricovero di Izak Heger</title>
+                    <author>Francesca Ferraioli</author>
+                    <publisher>Museo della memoria e della pace</publisher>
+                    <date></date>
+                </bibl>
+            </sourceDesc>
+		</fileDesc>
+	</teiHeader>
+    <text xml:lang="it">
+        <body>
+            <div>
+				<p>Villa dei Colli</p>
+				<p>Pilonetto (Torino)</p>
+				<p>Telef. 65.597</p>
+				
+				<p>Torino, <date when="19420608"><subst><del rend="overwrite">7</del><add>8</add></subst> Giugno <num value="1">I</num>942</date>.<num value="20">XX</num>°</p>
+				<p></p>
+				<p>Si dichiara che il Dottor <rs type="person">HEGER I<subst><del rend="overwrite">s</del><add>z</add></subst>a<subst><del rend="overwrite">c</del><add>k</add></subst></rs> è tuttora ricoverato</p>
+				<p>in questa Casa di Cura per esiti di pleurite a destra ed</p>
+				<p>infiltrato fibro sclerosante sotto apicale bilaterale. La</p>
+				<p>cura e la degenza del suddetto <rs type="person">Dottor Heger Iza<subst><del rend="overwrite">c</del><add>k</add></subst></rs> dovrà</p>
+				<p>protrarsi per un lungo periodo di tempo.</p>
+
+				<p><stamp>VILLA dei COLLI</stamp><stamp>CASA di CURA</stamp></p>
+
+				<p>IL DIRETTORE</p>			
+            </div>
+        </body>
+    </text>
+</TEI>

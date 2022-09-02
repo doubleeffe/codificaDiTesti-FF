@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+	<teiHeader>
+		<fileDesc>
+	    	<titleStmt>
+				<title>Referto 2 Gen 1942 - doc005</title>
+				<author>Francesca Ferraioli</author>
+			</titleStmt>
+            <publicationStmt>
+				<publisher>Università di Pisa</publisher>
+				<date></date>
+				<availability status="unknown">
+					<lb>Unpublished document</lb>
+				</availability>
+			</publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>Il ricovero di Izak Heger</title>
+                    <author>Francesca Ferraioli</author>
+                    <publisher>Museo della memoria e della pace</publisher>
+                    <date></date>
+                </bibl>
+            </sourceDesc>
+		</fileDesc>
+	</teiHeader>
+
+    <facsimile>
+        <!-- INTESTAZIONE -->
+		<surface n="1" xml:id="doc005_H">
+			<graphic url='doc005.jpg' width='2652px' height='1542px' />
+			<zone ulx="135" uly="156" lrx="2525" lry="562" rendition="HotSpot" xml:id="doc005_H.header"/>
+        </surface>
+		<!-- CORPO DOCUMENTO -->
+		<surface n="2" xml:id="doc005_B">
+			<graphic url='doc005.jpg' width='2652px' height='1542px' />
+            <!-- Righe documento -->
+			<zone ulx="463" uly="598" lrx="2515" lry="662" rendition="Line" xml:id="doc005_B.01"/>
+			<zone ulx="170" uly="658" lrx="2510" lry="711" rendition="Line" xml:id="doc005_B.02"/>
+			<zone ulx="170" uly="719" lrx="2510" lry="766" rendition="Line" xml:id="doc005_B.03"/>
+			<zone ulx="170" uly="784" lrx="2510" lry="834" rendition="Line" xml:id="doc005_B.04"/>
+			<zone ulx="170" uly="835" lrx="2130" lry="888" rendition="Line" xml:id="doc005_B.05"/>
+			<zone ulx="299" uly="889" lrx="2199" lry="945" rendition="Line" xml:id="doc005_B.06"/>
+        </surface>
+		<!-- TIMBRO E FIRMA -->
+		<surface n="3" xml:id="doc005_F">
+			<graphic url='doc005.jpg' width='2652px' height='1542px' />
+			<zone ulx="691" uly="983" lrx="2275" lry="1540" rendition="HotSpot" xml:id="doc005_F.footer"/>
+        </surface>
+    </facsimile>
+
+    <text xml:lang="it">
+		<body>
+			<div id="head_doc">
+				<lb facs="#doc005_H.header">
+					<p>Sanatorio Villa dei Colli </p>
+					<p><name type="place">Torino (Pilonetto)</name><date when="19420102">2 gennaio 1942</date>.<num value="20">XX</num>°</p> 
+					<p>Telef. 65.597</p>
+				</lb>
+			</div>
+
+			<div id="body_doc">
+				<lb facs="#doc005_B.01">Si dichiara che il<choice><abbr type="titolo">sign.</abbr><expan>signore</expan></choice><rs type="person">HEGER<choice><abbr type="titolo">dr.</abbr><expan>dottore</expan></choice> Izak</rs> è tuttora degente in questa</lb>
+				<lb facs="#doc005_B.02"><subst><del rend="overwrite">V</del><add>C</add></subst>asa di Cura per postumi di pleurite essudativa a destra e infiltrate fibre</lb>
+				<lb facs="#doc005_B.03">sclerosante sotto apicale non stabilizzato. Ha avuto recente riacutizzazio-</lb>
+				<lb facs="#doc005_B.04">ne dei postumi di pleurite e dei focolai infiltrativi a destra con conseguen-</lb>
+				<lb facs="#doc005_B.05">te piccole emoftoe protrattesi per lo spazio di quindici giorni.</lb>
+				<lb facs="#doc005_B.06">Il suo ricovero do<subst><del rend="overwrite">rv</del><add>vr</add></subst>à essere protratto per molto tempo.</lb>
+			</div>
+
+			<div id="foot_doc">
+				<lb facs="#doc005_F.footer">
+					<p><stamp>Casa di Cura</stamp><stamp><unclear reason="faded">Vi</unclear>lla Dei Colli</stamp><stamp><unclear reason="faded">Pilo</unclear>netto Torino</stamp></p>
+					<p>IL DIRETTORE</p>
+					<p><choice><abbr>F.to</abbr><expan>Firmato</expan></choice><choice><abbr type="titolo">D.r</abbr><expan>Dottor</expan></choice> ABATE ARNALDO</p>
+				</lb>
+			</div>
+		</body>
+	</text>
+</TEI>
